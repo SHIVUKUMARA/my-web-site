@@ -1,0 +1,97 @@
+body.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+body.light-mode {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+.navbar {
+  transition: 0.3s;
+}
+body.dark-mode .navbar {
+  background-color: #1f1f1f;
+}
+body.light-mode .navbar {
+  background-color: #ffffff;
+}
+section {
+  padding: 60px 0;
+}
+.card {
+  border: 1px solid #333;
+  transition: 0.3s;
+}
+body.light-mode .card {
+  background-color: #ffffff;
+  color: #212529;
+  border: 1px solid #ddd;
+}
+body.dark-mode .card {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+  border: 1px solid #333;
+}
+.btn-custom {
+  background-color: #0d6efd;
+  color: white;
+}
+.btn-custom:hover {
+  background-color: #0b5ed7;
+}
+footer {
+  padding: 20px;
+  text-align: center;
+}
+body.dark-mode footer {
+  background-color: #1f1f1f;
+  color: #f1f1f1;
+}
+body.light-mode footer {
+  background-color: #f1f1f1;
+  color: #212529;
+}
+#profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.project-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+#projects .btn-custom {
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  transition: 0.3s;
+}
+
+#about p {
+  text-align: justify;
+}
+
+.bubble {
+  display: inline-block;
+  background-color: #e97a25; /* Orange bubble */
+  color: white;
+  font-weight: bold;
+  padding: 4px 12px;
+  border-radius: 20px; /* Pill shape */
+  font-size: 13px;
+  margin: 3px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+#projects h5 {
+  text-align: center;
+}
+
+#projects p {
+  text-align: justify;
+}

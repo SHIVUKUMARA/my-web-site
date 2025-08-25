@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        background-color: var(--bs-body-bg);
+        color: var(--bs-body-color);
+      }
+
+      .about-card {
+        border-radius: 20px;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+        padding: 40px;
+        background: var(--bs-body-bg);
+        color: var(--bs-body-color);
+        border: 1px solid var(--bs-border-color);
+      }
+
+      #profile-img {
+        border-radius: 50%;
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        border: 6px solid #007bff;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s ease-in-out;
+      }
+
+      #profile-img:hover {
+        transform: scale(1.05);
+      }
+
+      .divider {
+        border-left: 3px solid #007bff;
+        height: 80%;
+        margin: auto;
+      }
+
+      h2 {
+        font-weight: 600;
+        color: #007bff;
+      }
+
+      p {
+        font-size: 1.05rem;
+        line-height: 1.7;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="about" class="container py-5 mt-4">
+      <div class="about-card">
+        <div class="row align-items-center">
+          <!-- Left Column: Image -->
+          <div class="col-md-5 text-center mb-4 mb-md-0">
+            <img
+              id="profile-img"
+              src="../assets/profile.png"
+              alt="Profile Image"
+              class="img-fluid"
+            />
+          </div>
+
+          <!-- Divider -->
+          <div class="col-md-1 d-none d-md-flex justify-content-center">
+            <div class="divider"></div>
+          </div>
+
+          <!-- Right Column: About Info -->
+          <div class="col-md-6">
+            <h2 class="mb-4">About Me</h2>
+            <p>
+              Hello! I am a passionate software developer with experience in
+              building responsive and scalable web applications using modern
+              technologies. I enjoy solving complex problems and creating
+              impactful digital experiences.
+            </p>
+            <p>
+              Skilled in HTML, CSS, JavaScript, Bootstrap, React, Node.js, and
+              database management. Always eager to learn and implement modern
+              solutions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
